@@ -1,0 +1,51 @@
+.pass {
+
+text-align: left; margin: 10px 0;
+
+.pass a {
+    color: ;
+} 
+}
+
+
+text-decoration: none; font-family: "Poppins", sans-serif;
+
+.pass:hover a {
+
+text-decoration: underline;
+
+}
+
+color: white;
+
+.field input[type="submit"] { background: #682efc; border: 1px solid #7741fd; font-size: 18px; font-family: "Montserrat", sans-serif; transition: .3s ease;
+
+letter-spacing: 1px;
+
+font-weight: 600; cursor: pointer;
+
+}
+
+.field input[type="submit"]:hover { background: #4a0de4f5;
+
+}
+
+.login {
+
+color: white;
+
+margin: 20px 0; font-family: "Poppins", sans-serif;
+
+}
+
+i span {
+
+margin-left: 8px;
+
+letter-spacing: 1px;
+
+font-size: 16px;
+
+font-weight: 500; font-family: "Poppins", sans-serif;
+
+}

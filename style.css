@@ -1,0 +1,70 @@
+h1{
+    text-align: LEFT;
+    font-family: papyrus;
+}
+h2{
+    text-align: center;
+    text-shadow: 5px;
+    background-color: aqua;
+    
+}
+ @import url("https://fonts.googleapis.com/css? family=Montserrat:400,588,688,708 | Poppins:400,588&display=swap");
+ .{
+
+margin: 0;
+
+padding: 0;
+
+box-sizing: border-box; 
+user-select: none;
+ }
+ .bg-img{
+height: 100vh;
+
+background: url("beg\ guy.jpg"); 
+background-size: 1450px;
+background-repeat: no-repeat;
+ background-position: center;
+ }
+
+.bg-img:after { 
+    position: absolute;
+
+    top: 0;
+
+   content:""; left: 0; width: 100; 
+   /* background: rgba(255, 255, 255, 0.174); */
+
+height: 100%;
+}
+
+.content {
+
+border-radius: 10px;
+
+top: 50%;
+
+z-index: 999;
+
+position: absolute; left: 50%; text-align: center; padding: 30px 32px; 
+transform: translate(-50%, -50%); 
+background: rgba(255, 255, 255, 0.133);
+
+width: 370px;
+
+border: 1px solid #fff;
+
+backdrop-filter: blur(3px); box-shadow: @ 6px 0 rgba(29, 29, 29, 0.203);
+}
+
+.content header {
+
+color: white;
+
+font-weight: 600;
+
+font-size: 33px; 
+margin:0 0 35px 0; 
+font-family: "Montserrat", sans-serif;
+
+}
