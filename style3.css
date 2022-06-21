@@ -1,7 +1,9 @@
 .pass {
 
-text-align: left; margin: 10px 0;
-
+    text-align: left;
+    margin: 10px 0;
+    color:white;
+}
 .pass a {
     color: ;
 } 
